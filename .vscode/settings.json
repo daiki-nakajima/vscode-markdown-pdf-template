@@ -1,0 +1,35 @@
+{
+  "editor.formatOnType": true,
+  "editor.formatOnSave": true,
+  "[json][jsonc]": {
+    "editor.defaultFormatter": "vscode.json-language-features"
+  },
+  "[markdown]": {
+    "editor.defaultFormatter": "yzhang.markdown-all-in-one"
+  },
+  "editor.codeActionsOnSave": {
+    "source.fixAll.markdownlint": "explicit"
+  },
+  "markdown.copyFiles.destination": {
+    "*": "../images/${documentBaseName}/${documentBaseName}.${fileExtName}"
+  },
+  "markdown-pdf.breaks": true,
+  "markdown-pdf.styles": [
+    "../css/cover-style.css",
+    "../css/page-style.css",
+  ],
+  "markdown-pdf.stylesRelativePathFile": true,
+  "markdown-pdf.includeDefaultStyles": false,
+  "markdown-pdf.outputDirectory": "output",
+  "markdown-pdf.margin.top": "0cm",
+  "markdown-pdf.margin.bottom": "2cm",
+  "markdown-pdf.displayHeaderFooter": true,
+  "markdown-pdf.headerTemplate": "<div></div>",
+  "markdown-pdf.footerTemplate": "<div style=\"font-family: '游ゴシック体', 'Yu Gothic', YuGothic, 'ヒラギノ角ゴ Pro', 'Hiragino Kaku Gothic Pro', 'メイリオ', 'Meiryo', sans-serif; position: relative; border-top: 1px solid #e1e4e8; margin: 0.5cm; font-size: 9px; width: 100%;\"><div style=\"position: absolute; width: 100%; top: 0.2cm; text-align: center;\"><span class='pageNumber'></span> / <span class='totalPages'></span></div><div style=\"position: absolute; right: 0; top: 0.2cm;\">© SAMPLE</div></div>",
+  "markdown-pdf.mermaidServer": "https://unpkg.com/mermaid@10.0.3-alpha.1/dist/mermaid.min.js",
+  "markdown-pdf.markdown-it-include.enable": true,
+  "markdownlint.config": {
+    "MD033": false,
+    "MD041": false,
+  },
+}

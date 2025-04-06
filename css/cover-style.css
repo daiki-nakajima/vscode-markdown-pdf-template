@@ -1,0 +1,33 @@
+.cover-container {
+  display: flex;
+  justify-content: space-evenly;
+  height: 100%;
+  margin-top: 50%;
+  margin-left: 20px;
+  margin-right: 20px;
+  text-align: center;
+  page-break-after: always;
+}
+
+.cover-inner {
+  display: flex;
+  flex-direction: column;
+  gap: 1em;
+}
+
+.cover-title {
+  font-size: 2rem;
+  text-align: center;
+  font-weight: bold;
+}
+
+.subtitle {
+  font-size: 1.5rem;
+  text-align: center;
+  color: #555;
+}
+
+.subtitle .issued,
+.subtitle .author {
+  margin: 0.2em 0;
+}

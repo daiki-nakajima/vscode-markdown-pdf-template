@@ -1,0 +1,9 @@
+{
+  "recommendations": [
+    "yzhang.markdown-all-in-one",
+    "yzane.markdown-pdf",
+    "davidanson.vscode-markdownlint",
+    "bierner.markdown-mermaid"
+  ],
+  "unwantedRecommendations": []
+}
